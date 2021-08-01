@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <!--الكونتينر يوسط المحتوى حقنا لانها لو بدون الاشياء بتكون طالعة برا الصفحة لأنه فيه 
+        margin = -15 by defult -->
+    <div class="container ">
+         <!--align items للصفوف , align self  للأعمدة 
+        align >> تتحكم في الصفوف بشكل عامودي اللي تحت فوق  نص-->
+
+
+         <!--justify-content للصفوف , align self  للأعمدة 
+        align >> تتحكم في الصفوف بشكل عامودي اللي تحت فوق  نص-->
+       
+        <!--لو حطيت between وأنا عندي عنصرين يجيب واحد أقصى اليمين وواحد أقصى اليسار -->
+        
+        <!-- ما ينفع اعبي كل ال 12 عمود بعدين اشتغل بال justify 
+        لأنه قده العواميد مليانة فمافي مكان يمشي فيهم المحتوى -->
+        <div class='row justify-content-between'>
+            <!--لأن الصفحة 12 عمود فلو ابغى 4 عناصر اقسم 12 على 4 تصير 3 لكل ديف-->
+            <!--لو عندي اكثر من عنصر بس اكتب col بدون رقم بيصير يقسمهم بالتساوي -->
+            
+            <!--بشكل عام الشاشات مقسمة ل 4 مقاسات -->
+            <!-- col أصغر مقاس
+                sm-->
+            <!--md-->
+            <!--lg-->
+            <!--xl-->
+         <!--<div class="col-3">test</div>
+            <div class="col-3">test2</div>
+            <div class="col-3">test3</div>
+            <div class="col-3">test4</div>-->
+             <!--
+                 كذا يصير للشاشات الكبيرة أقسم المحتوى ل6 عواميد
+                أصغر شي تصير عمودين 
+                الصغيرة 3 أعمدة 
+                الوسط 4 أعمدة
+                الكبيرة 6 أعمدة
+                المرة كبيرة 12 عمود -->
+            <!--<div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1">test</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1">test2</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1">test3</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1">test4</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1">test</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1">test2</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1">test3</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1">test4</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1">test</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1">test2</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1">test3</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1">test4</div>-->
+            <div class="col-4">Left</div>
+            <div class="col-4">Right</div>
+
+        </div>
+
+    </div>
+
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
